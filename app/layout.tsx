@@ -15,6 +15,21 @@ export const metadata: Metadata = {
   icons: {
     icon: '/favicon.png',
   },
+  openGraph: {
+    title: 'مناحل الثنيان',
+    description: 'أعسال طبيعية مكفولة من انتاج مناحلنا',
+    siteName: 'مناحل الثنيان',
+    images: [
+      {
+        url: '/Logo.png', // ضع الصورة هنا
+        width: 1200,
+        height: 630,
+        alt: 'مناحل الثنيان',
+      },
+    ],
+    locale: 'ar_AR',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({
