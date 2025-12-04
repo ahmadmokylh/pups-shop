@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     siteName: 'مناحل الثنيان',
     images: [
       {
-        url: '/Logo.png', // ضع الصورة هنا
+        url: '/Logo2.png', // ضع الصورة هنا
         width: 1200,
         height: 630,
         alt: 'مناحل الثنيان',
