@@ -12,23 +12,34 @@ const almarai = Almarai({
 export const metadata: Metadata = {
   title: 'مناحل الثنيان',
   description: 'أعسال طبيعية مكفولة من انتاج مناحلنا',
+
   icons: {
     icon: '/favicon.png',
+    shortcut: '/favicon.png',
+    apple: '/favicon.png',
   },
+
   openGraph: {
     title: 'مناحل الثنيان',
     description: 'أعسال طبيعية مكفولة من انتاج مناحلنا',
     siteName: 'مناحل الثنيان',
     images: [
       {
-        url: '/Logo2.png', // ضع الصورة هنا
+        url: '/logo2.png', // الصورة اللي تظهر عند الشير
         width: 1200,
         height: 630,
         alt: 'مناحل الثنيان',
       },
     ],
-    locale: 'ar_AR',
     type: 'website',
+    locale: 'ar_AR',
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: 'مناحل الثنيان',
+    description: 'أعسال طبيعية مكفولة من انتاج مناحلنا',
+    images: ['/logo2.png'],
   },
 };
 
