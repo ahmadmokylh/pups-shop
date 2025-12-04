@@ -48,9 +48,15 @@ export default function NavbarDrawer({
               ))}
             </div>
 
-            <div className="flex flex-col my-7 gap-4 border-y-1 border-[#dee2e6] py-5 ">
+            <div className="flex flex-col my-7 gap-4 border-y border-[#dee2e6] py-5 ">
               <Link href="contact-us">اتصل بنا</Link>
               <Link href="mn-nhn">من نحن</Link>
+            </div>
+
+            <div className="flex gap-4 border-[#dee2e6]  ">
+              <Link href="https://instagram.com/honeyaithnayan">
+                <Image src="/instagram.png" alt="Instagram" className="w-6" />
+              </Link>
             </div>
           </DrawerBody>
         </DrawerContent>

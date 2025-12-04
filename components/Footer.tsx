@@ -7,17 +7,17 @@ export default function Footer() {
   const social = [
     {
       platform: 'instagram',
-      link: 'www.instagram.com',
+      link: 'https://www.instagram.com/honeyaithnayan/',
       icon: '/instagram.png',
     },
     {
       platform: 'tiktok',
-      link: 'www.tiktok.com',
+      link: 'https://www.tiktok.com',
       icon: '/tiktok.png',
     },
     {
       platform: 'whatsapp',
-      link: 'www.whatsapp.com',
+      link: 'https://www.whatsapp.com',
       icon: '/whatsapp.png',
     },
   ];

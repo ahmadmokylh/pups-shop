@@ -24,7 +24,6 @@ export default function useSiteConfig() {
       title: 'التصنيفات',
       url: ' ',
       subLinks: [
-        { label: 'كل التصنيفات', title: 'جميع المنتجات', url: '/categories' },
         { label: 'العروض', title: 'العروض', url: '/categories/promotions' },
         {
           label: 'العسل العضوي',
@@ -51,9 +50,9 @@ export default function useSiteConfig() {
   ];
 
   const socialLinks = {
-    facebook: 'https://facebook.com/manahil',
-    twitter: 'https://twitter.com/manahil',
-    instagram: 'https://instagram.com/manahil',
+    facebook: 'https://facebook.com/honeyaithnayan',
+    twitter: 'https://x.com/honeyaithnayan',
+    instagram: 'https://instagram.com/honeyaithnayan',
   };
 
   return { siteInfo, navLinks, socialLinks };
