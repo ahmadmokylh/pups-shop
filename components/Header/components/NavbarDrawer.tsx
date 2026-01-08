@@ -54,8 +54,13 @@ export default function NavbarDrawer({
             </div>
 
             <div className="flex gap-4 border-[#dee2e6]  ">
-              <Link href="https://instagram.com/honeyaithnayan">
+              <Link href="https://instagram.com/honeyaithnayan" target='_blank'>
                 <Image src="/instagram.png" alt="Instagram" className="w-6" />
+              </Link>
+
+
+              <Link target='_blank' href="https://api.whatsapp.com/send?phone=96597388320&utm_campaign=wa_phone_number_xma_not_in_test&source_surface=49">
+                <Image src="/whatsapp.png" alt="Instagram" className="w-6"  />
               </Link>
             </div>
           </DrawerBody>

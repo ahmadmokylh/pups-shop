@@ -17,7 +17,7 @@ export default function Footer() {
     },
     {
       platform: 'whatsapp',
-      link: 'https://www.whatsapp.com',
+      link: 'https://api.whatsapp.com/send?phone=96597388320&utm_campaign=wa_phone_number_xma_not_in_test&source_surface=49',
       icon: '/whatsapp.png',
     },
   ];
@@ -50,7 +50,7 @@ export default function Footer() {
             </div>
 
             <p className="flex items-center gap-2 text-sm" dir="ltr">
-              +96599795252 <Phone size={15} />
+             +96597388320 <Phone size={15} />
             </p>
           </div>
 

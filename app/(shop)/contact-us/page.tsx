@@ -3,6 +3,7 @@
 import CountryDrawer from '@/components/CountryDrawer';
 import { Image } from '@heroui/react';
 import { MapPin } from 'lucide-react';
+import Link from 'next/link';
 
 export default function ContactUsPage() {
   return (
@@ -14,9 +15,15 @@ export default function ContactUsPage() {
           <h3 className="text-lg  mb-10">شبكات التواصل الاجتماعي</h3>
 
           <div className="flex items-end justify-end gap-5 text-2xl">
+            <Link target='_blank' href="https://api.whatsapp.com/send?phone=96597388320&utm_campaign=wa_phone_number_xma_not_in_test&source_surface=49">
             <Image src="/whatsapp.png" alt="whatsapp" width={24} />
+            </Link>
+        
             <Image src="/tiktok.png" alt="tiktok" width={24} />
+           
+            <Link href="https://instagram.com/honeyaithnayan" target='_blank'>
             <Image src="/instagram.png" alt="instagram" width={24} />
+            </Link>
           </div>
         </div>
 
