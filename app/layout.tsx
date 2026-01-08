@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Almarai } from 'next/font/google';
 import './globals.css';
 import { Providers } from './providers';
+import { Analytics } from "@vercel/analytics/next"
 
 const almarai = Almarai({
   variable: '--font-almarai',
@@ -66,6 +67,7 @@ export default function RootLayout({
     <html lang="en" className={`${almarai.variable}`}>
       <body>
         <Providers>{children}</Providers>
+        <Analytics/>
       </body>
     </html>
   );
